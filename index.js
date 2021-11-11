@@ -11,4 +11,4 @@ client.events = new Collection();
   require(`./handlers/${handler}`)(client, Discord);
 });
 // Logging in.
-client.login("INSERT_ID_HERE");
+client.login("INSERT_TOKEN_HERE");
