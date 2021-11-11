@@ -4,7 +4,7 @@ Pacakges used: axios, fs, discord.js.
 
 Instructions:
 
-First you need to install [https://nodejs.org/en/]{https://nodejs.org/en/}
+First you need to install https://nodejs.org/en/
 
 After, simply download the Github Code by click the green button on somewhat the top left.
 
