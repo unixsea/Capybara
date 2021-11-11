@@ -1,15 +1,16 @@
-Source code for https://top.gg/bot/901820792319402024
+# 🤖 Capybara | An Open-Source Discord Bot 🤖
+[Top.gg Page](https://top.gg/bot/901820792319402024) | [Vote](https://top.gg/bot/901820792319402024/vote) | [Bot Invite](https://top.gg/bot/901820792319402024/invite)
 
-Pacakges used: axios, fs, discord.js.
+## ``Instructions``
 
-Instructions:
+Clone https://github.com/aeclgithub/Capybara.git
 
-First you need to install https://nodejs.org/en/
+Download and install [NodeJS](https://nodejs.org/en/)
 
-After, simply download the Github Code by click the green button on somewhat the top left.
+### Enter the directory:
+``cd Capybara``
 
-Use these command lines:
-
+### Run these commands:
 ```npm init```
 
 ```npm i axios```
@@ -18,6 +19,5 @@ Use these command lines:
 
 ```npm i discord.js```
 
-If you want to download the code even though its useless, you might wanna clone the handler.
-
-If you do not have an IDE pick one.
+### Run the bot:
+``node .``
