@@ -4,11 +4,14 @@
 ## ``Running the bot``
 
 ```sh
-git clone https://github.com/aeclgithub/Capybara.git
-
-cd Capybara
-
+$ git clone https://github.com/aeclgithub/Capybara.git
+```
+```sh
+$ cd Capybara
+```
+```sh
 npm i
-
+```
+```sh
 node .
 ```
