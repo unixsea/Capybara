@@ -33,12 +33,10 @@ const response = [
   "https://www.youtube.com/watch?v=J_BUiGz5s7I"
 ];
 
-const videosLength = videos.length; // Array.prototype.length is a getter
-
 module.exports = {
   name: "videos",
   description: "we luv videos homie",
   execute(client, message, args) {
-    message.channel.send(`${response[Math.floor(Math.random() * videosLength)]}`);
+    message.channel.send(`${response[Math.floor(Math.random() * videos.length)]}`);
   },
 };
