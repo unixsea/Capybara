@@ -1,0 +1,27 @@
+{
+  "name": "Capybara",
+  "description": "The Capybara Discord bot open sourced!",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeclgithub/Capybara.git"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "discord.js": "^13.0.0"
+  },
+  "keywords": [
+    "Capybara",
+    "Discord",
+    "Bot"
+  ],
+  "author": "alec",
+  "license": "GPL v3.0",
+  "bugs": {
+    "url": "https://github.com/aeclgithub/Capybara/issues"
+  },
+  "homepage": "https://top.gg/bot/901820792319402024"
+}

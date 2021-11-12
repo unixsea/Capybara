@@ -1,5 +1,3 @@
-const { MessageEmbed } = require("discord.js");
-
 const response = [
   "https://cdn.discordapp.com/attachments/767390925051133984/906690042062340136/My_Video4.mp4",
   "https://cdn.discordapp.com/attachments/889004473983324186/904762142018895952/videoplayback.mp4",
@@ -10,7 +8,7 @@ const response = [
   "https://www.youtube.com/watch?v=nFdethgE3fs",
   "https://www.youtube.com/watch?v=78F_YdTUHM4",
   "https://www.youtube.com/watch?v=HvHurkRs5MM",
-  "https://youtu.be/guibQH94rCM",
+  "https://www.youtube.com/watch?v=guibQH94rCM",
   "https://www.youtube.com/watch?v=C7xyoPqYkYM",
   "https://www.youtube.com/watch?v=gOqKwCyA0QM",
   "https://www.youtube.com/watch?v=APJZeNY6dKo&t=10s",
@@ -30,15 +28,13 @@ const response = [
   "https://www.youtube.com/watch?v=5EYLkiW7kBE",
   "https://www.youtube.com/watch?v=FnPxMXHRGgw",
   "https://www.youtube.com/watch?v=d3SBpIKdISU",
-  "https://www.youtube.com/watch?v=J_BUiGz5s7I",
+  "https://www.youtube.com/watch?v=J_BUiGz5s7I"
 ];
 
 module.exports = {
   name: "videos",
   description: "we luv videos homie",
   execute(client, message, args) {
-    const answer = response[Math.floor(Math.random() * response.length)];
-    const embed = new MessageEmbed();
-    message.channel.send(`${answer}`);
+    message.channel.send(`${response[Math.floor(Math.random() * videos.length)]}`);
   },
 };
