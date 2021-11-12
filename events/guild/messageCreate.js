@@ -1,6 +1,4 @@
-const { MessageEmbed } = require("discord.js");
 const { inspect } = require("util");
-
 const prefix = "c+";
 
 // Starting our message event.
@@ -17,7 +15,7 @@ module.exports = async (Discord, client, message) => {
   
   // If command doesn't exist, send an embed.
   if (!command) {
-    const commandNotFoundEmbed = new MessageEmbed()
+    const commandNotFoundEmbed = new Discord.MessageEmbed()
       .setTitle(
         "Homie looks like that doesn't command exists."
       )
@@ -37,7 +35,7 @@ module.exports = async (Discord, client, message) => {
     try {
       await command.execute(client, message, args, Discord);
     } catch (err) {
-      const errorEmbed = new MessageEmbed()
+      const errorEmbed = new Discord.MessageEmbed()
         .setTitle(
           "Homie looks like the bot messed up :("
         )
