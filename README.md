@@ -10,8 +10,8 @@ $ git clone https://github.com/aeclgithub/Capybara.git
 $ cd Capybara
 ```
 ```sh
-npm i
+$ npm i
 ```
 ```sh
-node .
+$ node .
 ```
