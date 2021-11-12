@@ -10,7 +10,7 @@ module.exports = (client, Discord) => {
 
     for (const file of event_files) {
       const event = require(`../events/${dirs}/${file}`);
-      client.on(file.slice(0, 3), event.bind(null, Discord, client));
+      client.on(file.slice(0, -3), event.bind(null, Discord, client));
     }
   }
 };
