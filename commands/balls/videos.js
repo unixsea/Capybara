@@ -1,5 +1,3 @@
-const { MessageEmbed } = require("discord.js");
-
 const response = [
   "https://cdn.discordapp.com/attachments/767390925051133984/906690042062340136/My_Video4.mp4",
   "https://cdn.discordapp.com/attachments/889004473983324186/904762142018895952/videoplayback.mp4",
