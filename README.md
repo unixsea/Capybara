@@ -5,7 +5,10 @@
 
 ```sh
 git clone https://github.com/aeclgithub/Capybara.git
+
 cd Capybara
+
 npm i
+
 node .
 ```
